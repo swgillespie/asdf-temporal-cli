@@ -1,8 +1,8 @@
 <div align="center">
 
-# asdf-<YOUR TOOL> [![Build](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml) [![Lint](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml)
+# asdf-temporal-cli [![Build](https://github.com/swgillespie/asdf-temporal-cli/actions/workflows/build.yml/badge.svg)](https://github.com/swgillespie/asdf-temporal-cli/actions/workflows/build.yml) [![Lint](https://github.com/swgillespie/asdf-temporal-cli/actions/workflows/lint.yml/badge.svg)](https://github.com/swgillespie/asdf-temporal-cli/actions/workflows/lint.yml)
 
-[<YOUR TOOL>](<TOOL HOMEPAGE>) plugin for the [asdf version manager](https://asdf-vm.com).
+[temporal-cli](https://docs.temporal.io/cli) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -25,12 +25,12 @@
 Plugin:
 
 ```shell
-asdf plugin add <YOUR TOOL>
+asdf plugin add temporal-cli
 # or
-asdf plugin add <YOUR TOOL> https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>.git
+asdf plugin add temporal-cli https://github.com/swgillespie/asdf-temporal-cli.git
 ```
 
-<YOUR TOOL>:
+temporal-cli:
 
 ```shell
 # Show all installable versions
@@ -42,7 +42,7 @@ asdf install temporal-cli latest
 # Set a version globally (on your ~/.tool-versions file)
 asdf global temporal-cli latest
 
-# Now <YOUR TOOL> commands are available
+# Now temporal-cli commands are available
 temporal --version
 ```
 
@@ -53,8 +53,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/swgillespie/asdf-temporal-cli/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [<YOUR NAME>](https://github.com/<YOUR GITHUB USERNAME>/)
+See [LICENSE](LICENSE) © [Sean Gillespie](https://github.com/swgillespie/)
